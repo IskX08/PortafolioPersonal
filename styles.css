@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.brand{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: -30px;
+}
+
+#Titulo{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.portafolio{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FF1818;
+    color: #fff;
+
+}
+
+#menu1{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    top: 10px;
+    left: 810px;
+    z-index: 1;
+}
+
+#menu2{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    top: 10px;
+    left: 1000px;
+    z-index: 1;
+    transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -o-transform: rotate(-25deg);
+}
+
+#menu3{
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    top: 15px;
+    left: 1165px;
+    z-index: 1;
+    transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.menu{
+    display: flex;
+    width: 40vw;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    color: #FF1818;
+    text-decoration: none;
+    position: absolute;
+    z-index: 2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+.menu a:hover{
+    background-color: #FF1818;
+    color: black;
+    opacity: .90;
+}
+
+
+.fondo{
+    background-image: url("imgsp/fondo1.png");
+    width: 100vw;
+    height: 100vh;
+}
+
+.html{
+    padding: 30px;
+}
+
+img{
+    position: absolute;
+    width: 220px;
+    height: 197px;
+    top: 107px;
+    left: 100px;
+}
+
+#texto{
+    position: absolute;
+    width: 650px;
+    height: 300px;
+    top: 320px;
+    left: 50px;
+}
+
+.info{
+    position: relative;
+    width: 500px;
+    height: 100px;
+    top: 340px;
+    left: 110px;
+    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -ms-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+}
+
+#retrato{
+    position: absolute;
+    width: 700px;
+    height: 380px;
+    left: 50px;
+    top: 40px;
+}
+
+#foto{
+    border: 9px solid #fff;
+}
+
+#retrato2{
+    position: absolute;
+    width: 500px;
+    height: 410px;
+    left: 870px;
+    top: -90px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    z-index: 0;
+}
+
+#cel{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    left: 910px;
+    top: -265px;
+    transform: rotate(17deg);
+    z-index: 1;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-transform: rotate(19deg);
+    -moz-transform: rotate(17deg);
+    -ms-transform: rotate(17deg);
+    -o-transform: rotate(17deg);
+}
+
+#retrato3{
+    position: absolute;
+    width: 500px;
+    height: 410px;
+    left: 600px;
+    top: 20px;
+    transform: rotate(-110deg);
+    -webkit-transform: rotate(-110deg);
+    -moz-transform: rotate(-110deg);
+    -ms-transform: rotate(-110deg);
+    -o-transform: rotate(-110deg);
+    z-index: 0;
+}
+
+#dir{
+    position: relative;
+    width: 150px;
+    height: 50px;
+    left: 680px;
+    top: -245px;
+    transform: rotate(17deg);
+    z-index: 1;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(17deg);
+    -ms-transform: rotate(17deg);
+    -o-transform: rotate(17deg);
+}
+
+.fondo2{
+    background-image: url("imgsp/fondo2.0.png");
+    width: 100vw;
+    height: 100vh;
+}
+
+.about{
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+}
+
+.content{
+    padding: 40px;
+}
+
+#com{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 40px;
+    top: 710px;
+    z-index: 1;
+}
+
+h1{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 200px;
+    top: 765px;
+    z-index: 2;
+    color: black;
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#desc{
+    position: absolute;
+    width: 570px;
+    height: 320px;
+    left: 110px;
+    top: 810px;
+    z-index: 0;
+}
+
+.info1{
+    position: absolute;
+    z-index: 1;
+    top: 890px;
+    left: 190px;
+}
+
+#asp{
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    left: 700px;
+    top: 500px;
+    transform: rotate(-105deg);
+    -webkit-transform: rotate(-105deg);
+    -moz-transform: rotate(-105deg);
+    -ms-transform: rotate(-105deg);
+    -o-transform: rotate(-105deg);
+    z-index: 0;
+}
+
+.aspi{
+    position: absolute;
+    left: 850px;
+    top: 870px;
+    z-index: 1;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+}
+
+#A2{
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Psi {
+    position: absolute;
+    left: 830px;
+    top: 930px;
+    z-index: 1;
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+}
+
+#Trab{
+    font-size: 1.7em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.fondofinal{
+    background-image: url("imgsp/final1.png");
+    width: 100vw;
+    height: 100vh;
+}
+
+#com2{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 40px;
+    top: 1600px;
+    z-index: 1;
+}
+
+#desc2{
+    position: absolute;
+    width: 400px;
+    height: 280px;
+    left: 70px;
+    top: 1660px;
+    z-index: 0;
+}
+
+#series{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 140px;
+    top: 1625px;
+    z-index: 2;
+    color: black;
+    font-size: 2.7em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#com3{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    left: 950px;
+    top: 1400px;
+    z-index: 1;
+}
+
+#desc3{
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    left: 980px;
+    top: 1450px;
+    z-index: 0;
+}
+
+#com4{
+    position: absolute;
+    width: 240px;
+    height: 90px;
+    left: 900px;
+    top: 1700px;
+    z-index: 1;
+}
+
+#desc4{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 900px;
+    top: 1750px;
+    z-index: 0;
+}
+
+#musica{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 1040px;
+    top: 1430px;
+    z-index: 2;
+    color: black;
+    font-size: 2.7em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Juegos{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 970px;
+    top: 1720px;
+    z-index: 2;
+    color: rgb(0, 0, 0);
+    font-size: 2.7em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#ser{
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    left: 140px;
+    top: 1730px;
+    z-index: 2;
+    color: #fff;
+    font-size: 0.8em;  
+}
+
+#mus{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    left: 1020px;
+    top: 1515px;
+    z-index: 2;
+    color: #fff;
+    font-size: 0.7em;  
+}
+
+#jueg{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 950px;
+    top: 1810px;
+    z-index: 2;
+    color: #fff;
+    font-size: 0.7em;  
+}
